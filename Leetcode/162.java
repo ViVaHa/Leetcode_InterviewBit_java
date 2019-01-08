@@ -15,7 +15,7 @@ class Solution {
                 }
             }
             if((mid-1<start || nums[mid]>nums[mid-1])&&(mid+1>end || nums[mid]>nums[mid+1])){
-                //System.out.println(mid);
+                
                 return mid;
             }
             else if(nums[mid]>nums[mid-1] && nums[mid]<nums[mid+1]){
